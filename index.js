@@ -13,7 +13,7 @@ var verify_token = "news_in";
 //Root EndPoint
 app.get('/', function (req, res) {
 
-    res.send('Facebook Messenger Bot root endpoint!');
+    res.send('Welcome to NewsIn');
 
 });
 
