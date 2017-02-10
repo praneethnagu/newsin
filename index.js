@@ -40,7 +40,7 @@ app.post('/webhook/', function (req, res) {
         if (event.message && event.message.text) {
             var text = event.message.text;
 
-            sendTextMessage(sender, "messageData "+ text.substring(0, 200));
+            sendTextMessage(sender, + text.substring(0, 200));
         }
     }
 
