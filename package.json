@@ -11,8 +11,10 @@
   },
   "author": "praneeth",
   "dependencies": {
-    "express": "latest",
     "body-parser": "^1.15.0",
+    "botbuilder": "^3.6.0",
+    "express": "latest",
+    "node-wit": "^4.2.0",
     "request": "^2.71.0"
   }
 }

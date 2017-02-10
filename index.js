@@ -40,7 +40,7 @@ app.post('/webhook/', function (req, res) {
         if (event.message && event.message.text) {
             var text = event.message.text;
 
-            sendTextMessage(sender, "Text received, echo: "+ text.substring(0, 200));
+            sendTextMessage(sender, "messageData "+ text.substring(0, 200));
         }
     }
 
@@ -54,6 +54,11 @@ app.listen(port, function () {
     console.log('Facebook Messenger Bot on port: ' + port);
 
 });
+
+
+//google news api
+
+
 
 //send Message with Facebook Graph Facebook v2.6
 function sendTextMessage(sender, text) {
